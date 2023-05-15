@@ -1,0 +1,50 @@
+@import url(../../vendor/fonts/fonts.css);
+
+.page {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  color: black;
+  max-width: 1920px;
+}
+
+* {
+  box-sizing: border-box; 
+}
+
+.main-pictures {
+  background-image: url(../../images/Mask\ group.png),
+    url(../../images/first-block.jpg);
+  height: 922px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+@media screen and (max-width: 1280px) {
+  .main-pictures {
+    background-image: url(../../images/Mask\ group.png),
+      url(../../images/first-block-ipad.jpg);
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .main-pictures {
+    background-image: url(../../images/flovers.png) cover,
+      url(../../images/first-block-ipad.jpg);
+  }
+}
+
+@media screen and (max-width: 865px) {
+  .main-pictures {
+    background-image: url(../../images/first-block-ipad.jpg);
+    background-size: cover;
+    background-position: 78%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main-pictures {
+    background-image: url(../../images/one-block-main-small.png);
+  }
+}
