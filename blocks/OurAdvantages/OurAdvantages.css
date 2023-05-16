@@ -1,0 +1,322 @@
+.advantages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .advantages__title {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+    color: #1b1b1b;
+    margin-top: 154px;
+    margin-bottom: 47px;
+  }
+  
+  .advantages__elements {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 25px 20px;
+  }
+  
+  .advantages__element {
+    width: 710px;
+    height: 250px;
+    background: linear-gradient(92.23deg, #737ff3 0%, #7360e7 100%);
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: 60% 40%;
+  }
+  
+  .element__title {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 34px;
+    color: #ffffff;
+    margin-top: 20px;
+    margin-left: 26px;
+    margin-bottom: 0px;
+  }
+  
+  .element__text {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #ffffff;
+    margin-left: 26px;
+  }
+  
+  .element__text_phone {
+    margin-top: 18px;
+  }
+  
+  .element__text_boxes {
+    margin-top: 51px;
+  }
+  
+  .element__text_perforator {
+    margin-top: 23px;
+    line-height: 24.38px;
+    width: 440px;
+  }
+  
+  .element__text_check-mark {
+    margin-top: 28px;
+    width: 440px;
+  }
+  
+  .element__image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .element__img {
+    width: 218px;
+    height: 218px;
+    background: #fff;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 30px;
+  }
+  
+  .element__picture_phone {
+    margin-top: -5px;
+    margin-left: 44px;
+  }
+  
+  .element__picture_boxes {
+    margin-top: -10px;
+    margin-left: 3px;
+  }
+  
+  .element__picture_perforator {
+    margin-top: -6px;
+    margin-left: 1px;
+  }
+  
+  .element__picture_check-mark {
+    margin-top: -6px;
+    margin-left: 1px;
+  }
+  
+  @media screen and (max-width: 1500px) {
+    .advantages__elements {
+      gap: 19px 16px;
+    }
+  
+    .advantages__title {
+      font-size: 30px;
+      line-height: 37px;
+      margin-top: 175px;
+      margin-bottom: 34px;
+    }
+  
+    .advantages__element {
+      width: 550.25px;
+      height: 193.75px;
+    }
+  
+    .element__title {
+      font-size: 24px;
+      line-height: 29px;
+      margin-top: 14px;
+      margin-left: 19px;
+    }
+  
+    .element__text {
+      font-size: 17px;
+      line-height: 21px;
+      margin-left: 19px;
+      width: 106%;
+    }
+  
+    .element__text_phone {
+      margin-top: 10px;
+    }
+  
+    .element__text_boxes {
+      margin-top: 40px;
+    }
+  
+    .element__text_perforator {
+      margin-top: 14px;
+      font-size: 16px;
+      line-height: 20px;
+    }
+  
+    .element__text_check-mark {
+      font-size: 16px;
+      line-height: 20px;
+      margin-top: 21px;
+    }
+  
+    .element__img {
+      width: 168.95px;
+      height: 168.95px;
+    }
+  
+    .element__img_phone {
+      margin-top: 1px;
+      margin-left: 22px;
+    }
+  
+    .element__img_boxes {
+      margin-top: -3px;
+      margin-left: 20px;
+    }
+  
+    .element__img_perforator {
+      margin-top: -26px;
+      margin-left: 24px;
+    }
+  
+    .element__img_check-mark {
+      margin-top: -23px;
+      margin-left: 20px;
+    }
+  
+    .element__picture_phone {
+      width: 108.43px;
+      height: 172.88px;
+      transform: rotate(1.23deg);
+      margin-top: -6px;
+      margin-left: 37px;
+    }
+  
+    .element__picture_boxes {
+      width: 175.15px;
+      height: 175.15px;
+      margin-top: -2px;
+    }
+  
+    .element__picture_perforator {
+      width: 200.67px;
+      height: 167.44px;
+      margin-top: -2px;
+      margin-left: -18px;
+    }
+  
+    .element__picture_check-mark {
+      width: 168.95px;
+      height: 179.95px;
+    }
+  }
+  
+  @media screen and (max-width: 1132px) {
+    .advantages__element {
+      width: 95%;
+      height: 250px;
+    }
+  }
+  
+  @media screen and (max-width: 1014px) {
+    .advantages__elements {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .advantages__element {
+      width: 710px;
+      height: 250px;
+      align-self: center;
+    }
+  }
+  
+  @media screen and (max-width: 726px) {
+    .advantages__element {
+      width: 90%;
+    }
+  }
+  
+  @media screen and (max-width: 515px) {
+    .advantages__elements {
+      gap: 19px;
+    }
+  
+    .advantages__element {
+      grid-template-columns: 60% 40%;
+      height: 322px;
+    }
+  
+    .advantages__element_perforator {
+      grid-template-columns: 60% 40%;
+    }
+  
+    .element__title {
+      font-size: 20px;
+      line-height: 34px;
+      width: 100%;
+    }
+  
+    .element__text {
+      font-size: 15px;
+      width: 90%;
+    }
+  
+    .element__image {
+      margin-right: 10px;
+    }
+  
+    .element__text_perforator {
+      width: 80%;
+      margin-right: 0px;
+    }
+  
+    .element__img_perforator {
+      margin-left: 0px;
+    }
+  }
+  
+  @media screen and (max-width: 430px) {
+    .advantages__element {
+      grid-template-columns: 50% 50%;
+      height: 350px;
+    }
+  }
+  
+  @media screen and (max-width: 390px) {
+    .advantages__elements {
+      width: 95%;
+    }
+  
+    .advantages__element_check-mar {
+      grid-template-columns: 40% 60%;
+    }
+  
+    .advantages__element {
+      height: 365px;
+    }
+  }
+  
+  @media screen and (max-width: 365px) {
+    .advantages__title {
+      font-size: 28px;
+    }
+  
+    .advantages__element_check-mar {
+      grid-template-columns: 40% 60%;
+    }
+  
+    .element__picture_boxes {
+      width: 150px;
+    }
+  
+    .element__picture_perforator {
+      width: 180px;
+      margin-left: 5px;
+    }
+  
+    .element__img_check-mark {
+      margin-top: -175px;
+    }
+  }
+  

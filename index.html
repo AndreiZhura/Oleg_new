@@ -34,8 +34,8 @@
             Наши преимущества
           </a>
         </nav>
-        <button class="navtab__burger" onClick="{handleChange}">
-          <img class="navtab__icon" src="./images/Burger.svg" alt="меню" />
+        <button class="navtab__burger">
+          <img class="navtab__icon" src="./images/burger-menu-svgrepo-com.svg" alt="меню" />
         </button>
         <nav class="navtell">
           <a class="navtell__item" href="tel: +79153227045"
@@ -46,33 +46,32 @@
       </header>
       
     <section class="menu-burger">
-        <button class="menu-right__close" onClick="{handleChange}"></button>
+        <button class="menu-right__close" ></button>
         <nav class="menu-burger__navigation">
           <a
             class="menu-burger__item menu-burger__item_main"
             href="#main"
-            onClick="{handleChange}"
           >
             Главная
           </a>
           <a
             class="menu-burger__item"
             href="#Stages-of-work"
-            onClick="{handleChange}"
+           
           >
             Этапы работ
           </a>
           <a
             class="menu-burger__item"
             href="#Free-test"
-            onClick="{handleChange}"
+      
           >
             Бесплатный тест
           </a>
           <a
             class="menu-burger__item"
             href="#Our-advantages"
-            onClick="{handleChange}"
+        
           >
             Наши преимущества
           </a>
@@ -100,7 +99,7 @@
               <button class="choice-condicioner__button">
                 <img
                   class="choice-condicioner__button_icon-devilery"
-                  src="{devilery}"
+                  src="/images/carbon_delivery-parcel.svg"
                   alt="Доставка"
                 />
                 <span class="choice-condicioner__text-devilery">
@@ -108,10 +107,10 @@
                 </span>
               </button>
               <button class="choice-condicioner__button">
-                {" "}
+                
                 <img
                   class="choice-condicioner__button_icon-call"
-                  src="{callIcon}"
+                  src="./images/call-icon.svg"
                   alt="Доставка"
                 />
                 <span class="choice-condicioner__text-icon-call">
@@ -127,30 +126,30 @@
           <h3 class="choose-us__title">Почему выбирают нас</h3>
           <div class="choose-us__container">
             <div class="choose-us__advantages">
-              <img class="choose-us__icon" src="{icon1}" alt="Доставка" />
+              <img class="choose-us__icon" src="./images/icon1.svg" alt="Доставка" />
               <p class="choose-us__text">
                 Подберем кондиционер под любой бюджет
               </p>
             </div>
             <div class="choose-us__advantages">
-              <img class="choose-us__icon" src="{icon2}" alt="Доставка" />
+              <img class="choose-us__icon" src="./images/icon2.svg" alt="Доставка" />
               <p class="choose-us__text">
                 Установка от 2 часов. Чистота гарантирована
               </p>
             </div>
             <div class="choose-us__advantages">
-              <img class="choose-us__icon" src="{icon3}" alt="Доставка" />
+              <img class="choose-us__icon" src="./images/icon3.svg" alt="Доставка" />
               <p class="choose-us__text choose-us__text_guarantee">
                 Гарантия от 3 лет.<br />
                 Сервисное обслуживание 1 год
               </p>
             </div>
             <div class="choose-us__advantages">
-              <img class="choose-us__icon" src="{icon4}" alt="Доставка" />
+              <img class="choose-us__icon" src="./images/icon4.svg" alt="Доставка" />
               <p class="choose-us__text">Быстрый выезд на объект</p>
             </div>
             <div class="choose-us__advantages">
-              <img class="choose-us__icon" src="{icon5}" alt="Доставка" />
+              <img class="choose-us__icon" src="./images/icon5.svg" alt="Доставка" />
               <p class="choose-us__text choose-us__text_guarantee">
                 Большой ассортимент под <br />
                 площадь до 3000 м
@@ -164,20 +163,20 @@
         <h3 class="we-working__title">Как мы работаем?</h3>
         <img
           class="pictyre__air-conditioning"
-          src="{conditioning}"
+          src="./images/installation_icon.svg"
           alt="Кондиционер"
         />
         <div class="we-working__elements">
           <div class="we-working__element">
             <img
               class="picture picture__line_1"
-              src="{line_1}"
+              src="./images/line_1.svg"
               alt="Лини-1"
             />
             <div class="we-working__container">
               <img
                 class="we-working__picture we-working__picture_application"
-                src="{application_icon}"
+                src="images/application_icon.svg"
                 alt="Заявка"
               />
               <h4
@@ -202,13 +201,13 @@
             </span>
             <img
               class="picture picture__line_2"
-              src="{line_2}"
+              src="images/line_2.svg"
               alt="Линия-2"
             />
             <div class="we-working__container">
               <img
                 class="we-working__picture we-working__picture_delivery"
-                src="{delivery_icon}"
+                src="images/delivery_icon.svg"
                 alt="Доставка"
               />
               <h4
@@ -226,13 +225,13 @@
           <div class="we-working__element">
             <img
               class="picture picture__line_3"
-              src="{line_1}"
-              alt="Линия-1"
+              src="images/line_1.svg"
+              alt="Линия-3"
             />
             <div class="we-working__container">
               <img
                 class="we-working__picture we-working__picture__installation"
-                src="{installation_icon}"
+                src="images/installation_icon.svg"
                 alt="Установка"
               />
               <h4
@@ -260,7 +259,7 @@
             <div class="we-working__container">
               <img
                 class="we-working__picture we-working__picture_payment"
-                src="{payment_icon}"
+                src="images/payment_icon.svg"
                 alt="Оплата"
               />
               <h4
@@ -285,7 +284,7 @@
           <div class="advantages__element">
             <div class="element__content">
               <h3 class=" element__title element__title_call">
-                ​Оператор ведет Вас от начала до конца{" "}
+                ​Оператор ведет Вас от начала до конца
               </h3>
               <p class="element__text element__text_phone">
                 Вы закрепляетесь за менеджером, который постоянно на связи и
@@ -296,7 +295,7 @@
               <div class="element__img element__img_phone">
                 <img
                   class="element__picture element__picture_phone"
-                  src="{phone}"
+                  src="images/phone.png"
                   alt="Телефон"
                 />
               </div>
@@ -313,7 +312,7 @@
               <div class="element__img element__img_boxes">
                 <img
                   class="element__picture element__picture_boxes"
-                  src="{boxes}"
+                  src="images/boxes.svg"
                   alt="Коробка"
                 />
               </div>
@@ -325,14 +324,14 @@
               <p class="element__text element__text_perforator">
                 Мы работаем только с профессионалами. Монтаж производится с
                 помощью современного оборудования и с использованием
-                качественных материалов{" "}
+                качественных материалов
               </p>
             </div>
             <div class="element__image">
               <div class="element__img element__img_perforator">
                 <img
                   class="element__picture element__picture_perforator"
-                  src="{perforator}"
+                  src="images/perforator.svg"
                   alt="Перфоратор"
                 />
               </div>
@@ -352,7 +351,7 @@
               <div class="element__img element__img_check-mark">
                 <img
                   class="element__picture element__picture_check-mark "
-                  src="{checkMark}"
+                  src="images/checkMark.svg"
                   alt="Галочка"
                 />
               </div>
