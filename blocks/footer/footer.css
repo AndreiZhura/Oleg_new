@@ -1,0 +1,36 @@
+.footer {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    background-color: #727EF2;
+}
+
+.navtab_footer {
+    width: 1440px;
+    margin: 0 auto;
+    margin-top: 8px;
+    margin-bottom: 50px;
+    gap: 50px;
+}
+
+.navtab__item_footer {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width:1690px) {
+    .navtab_footer {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:868px) {
+    .footer {
+        display: none;
+        
+    }
+}
