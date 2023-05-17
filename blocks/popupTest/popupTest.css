@@ -6,10 +6,10 @@
     backdrop-filter: blur(5px);
 }
 
-/*
+
 .popup-test_none{
     display: none;
-}*/
+}
 
 .popup-test__form {
     width: 500px;
@@ -19,12 +19,9 @@
     background-color: white;
 }
 
-.menu-right__close_test{
-  position: relative;
-  top: 10px;
-}
 
-.popup-test__main{
+
+.popup-test__main {
     position: sticky;
     top: 5%;
     width: 600px;
@@ -32,8 +29,17 @@
     left: calc(50% - 250px);
 }
 
-.popup-test_cross{
-    background-image: url(../../images/cross.png);
+.popup-test_cross {
     width: 50px;
     height: 50px;
+    position: relative;
+    top: -10px;
+    left: 515px;
+    border: none;
+    background-image: url(../../images/cross.png);
+    background-color: transparent;
+    background-position: center;
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+
 }
