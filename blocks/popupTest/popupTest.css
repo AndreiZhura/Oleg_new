@@ -53,14 +53,19 @@
 .popup-test__questions {
     border: 1px solid green;
     margin: 10px;
+    margin-bottom: 0px;
     display: flex;
     flex-direction: column;
 }
 .popup-test__question-item {
     border: 1px solid yellow;
     margin: 10px;
-
 }
+
+.popup-test__question-item_none{
+    display: none;
+}
+
 .popup-test__title {
     text-align: center;
 }
@@ -71,8 +76,13 @@
 .popup-test__question-text {
 }
 
-.popup-test__button{
+.popup-test__buttons{
+    align-self: center;
     margin-top: 10px;
+    border: 1px solid green;
+}
+
+.popup-test__button{
     width: 150px;
     height: 50px;
     border-radius: 3px;
@@ -86,5 +96,5 @@
     font-weight: 500;
     font-size: 14px;
     line-height: 19px;
-    align-self: center;
+    cursor: pointer;
 }
