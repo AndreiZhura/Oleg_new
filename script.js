@@ -7,7 +7,7 @@ const passTheTest = document.querySelector('.choice-condicioner__pass-test');
 const popupTest = document.querySelector('.popup-test');
 
 
-function openBurgerMenu(){
+function openBurgerMenu() {
     menuBurger.classList.remove('menu-burger_none');
 }
 
@@ -15,7 +15,7 @@ const closeBurgerMenu = () => {
     menuBurger.classList.add('menu-burger_none');
 }
 
-const openTest = () =>{
+const openTest = () => {
     popupTest.classList.remove('popup-test_none');
 }
 
@@ -27,10 +27,10 @@ const closeTest = () => {
 
 
 
-    burgerButton.addEventListener('click',openBurgerMenu);
-    menuBurgerClose.addEventListener('click',  closeBurgerMenu);
-    menuBurgerItem.addEventListener('click', event =>{
-        menuBurger.classList.add('menu-burger_none');
-    });
-    passTheTest.addEventListener('click',openTest);
-    buttonTestClose.addEventListener('click',closeTest);
+burgerButton.addEventListener('click', openBurgerMenu);
+menuBurgerClose.addEventListener('click', closeBurgerMenu);
+menuBurgerItem.addEventListener('click', event => {
+    menuBurger.classList.add('menu-burger_none');
+});
+passTheTest.addEventListener('click', openTest);
+buttonTestClose.addEventListener('click', closeTest);

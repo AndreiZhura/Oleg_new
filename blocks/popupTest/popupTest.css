@@ -13,10 +13,13 @@
 
 .popup-test__form {
     width: 500px;
-    height: 500px;
+    height: 600px;
     border-radius: 10px;
     border: 5px solid #737ff3;
     background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 
@@ -41,5 +44,51 @@
     background-position: center;
     background-size: 50px 50px;
     background-repeat: no-repeat;
+}
 
+.popup-test__main-title{
+    text-align: center;
+    margin-top: -10px;
+}
+
+.popup-test__questions {
+    border: 1px solid green;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 15px;
+}
+.popup-test__title {
+    border: 1px solid teal;
+}
+
+.popup-test__possible-answer{
+    margin-bottom: 15px;
+}
+
+.popup-test__question {
+    border: 1px solid yellow;
+}
+.popup-test__question-text {
+    border: 1px solid red;
+    width: 350px;
+}
+
+.popup-test__button{
+    margin-top: 10px;
+    width: 150px;
+    height: 50px;
+    border-radius: 3px;
+    color: white;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+     background: linear-gradient(92.23deg, #737ff3 0%, #7360e7 100%);
+    border-radius: 15px;
+    border: none;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
 }
