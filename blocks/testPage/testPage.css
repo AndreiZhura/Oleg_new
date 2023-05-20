@@ -1,0 +1,73 @@
+.page-test {
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.page-test__form {
+    border: 5px solid #737ff3;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding-left: 15px;
+    padding-right: 15px;
+  
+
+}
+.page-test__main-title {
+    text-align: center;
+}
+.page-test__questions {
+}
+.page-test__question-item {
+    margin-bottom: 10px;
+}
+.page-test__title {
+    text-align: center;
+}
+.page-test__possible-answer {
+}
+.page-test__question {
+}
+.page-test__question-text {
+}
+.page-test__name-and-telephone {
+    display: flex;
+    flex-direction: column;
+}
+.page-test__input {
+    margin-bottom: 10px;
+}
+.page-test__input_name {
+}
+.page-test__label {
+    margin-bottom: 10px;
+}
+.page-test__label_name {
+}
+.page-test__input_phone {
+}
+.page-test__label_phone {
+}
+.page-test__button {
+    width: 150px;
+    height: 60px;
+    background: linear-gradient(92.23deg, #737ff3 0%, #7360e7 100%);
+    border-radius: 15px;
+    border: none;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+ 
+}
