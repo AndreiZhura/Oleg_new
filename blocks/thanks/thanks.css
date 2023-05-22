@@ -13,6 +13,13 @@ align-items: center;
     text-decoration: none;
 }
 
+.thanks__title {
+   text-align: center;
+}
+.thanks__subtitle {
+    text-align: center;
+}
+
 @media screen and (max-width:408px) {
     .thanks__title {
         font-size: 18px;
@@ -20,7 +27,6 @@ align-items: center;
     .thanks__subtitle {
         font-size: 16px;
     }
-    
  }
 
 
@@ -28,6 +34,4 @@ align-items: center;
     .thanks__subtitle {
         font-size: 12px;
     }
-    
-    
- }
+}
