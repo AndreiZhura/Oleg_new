@@ -15,12 +15,11 @@
 
 .popup-test__main {
     top: 10px;
-    position: sticky;
+    position: absolute;
     width: 50%;
     height: 20%;
     display: flex;
-    justify-content: center;
-    border: 1px solid green;
+    justify-content: center;    
 }
 
 .popup-test_cross {
@@ -149,8 +148,6 @@
         top: 0px;
         width: 60%;
         height: 20%;
-        border: 1px solid green;
-
     }
 }
 
@@ -187,7 +184,170 @@
         top: 0px;
         width: 70%;
         height: 20%;
-        border: 1px solid green;
+    }
+}
 
+
+
+@media screen and (max-width:893px) {
+    .popup-test_cross {
+        left: 525px;
+    }
+}
+
+@media screen and (max-width:869px) {
+    .popup-test_cross {
+        left: 535px;
+    }
+
+    .popup-test__form {
+        margin-top: 20px;
+        width: 75%;
+        height: 45%;
+    }
+
+    .popup-test__main {
+        top: 0px;
+        width: 70%;
+        height: 20%;
+
+
+    }
+}
+
+@media screen and (max-width:815px) {
+    .popup-test_cross {
+        left: 500px;
+    }
+}
+
+@media screen and (max-width:758px) {
+    .popup-test_cross {
+        left: 450px;
+    }
+}
+
+@media screen and (max-width:693px) {
+    .popup-test_cross {
+        left: 430px;
+    }
+}
+
+
+@media screen and (max-width:617px) {
+    .popup-test_cross {
+        left: 405px;
+    }
+
+
+    .popup-test__main {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:531px) {
+    .popup-test_cross {
+        left: 440px;
+    }
+
+    .popup-test__main {
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width:523px) {
+    .popup-test_cross {
+        left: 430px;
+    }
+}
+
+@media screen and (max-width:493px) {
+    .popup-test_cross {
+        left: 400px;
+    }
+}
+
+@media screen and (max-width:468px) {
+    .popup-test_cross {
+        left: 380px;
+    }
+
+
+    .popup-test__form {
+        margin-top: 40px;
+        height: 44%;
+    }
+
+
+}
+
+@media screen and (max-width:441px) {
+    .popup-test_cross {
+        left: 360px;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .popup-test_cross {
+        left: 340px;
+    }
+
+    .popup-test__form {
+        margin-top: 40px;
+        height: 44%;
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:390px) {
+    .popup-test_cross {
+        left: 320px;
+    }
+
+    .popup-test__form {
+        margin-top: 40px;
+        height: 43%;
+    }
+}
+
+@media screen and (max-width:390px) {
+    .popup-test_cross {
+        left: 310px;
+    }
+
+    .popup-test__form {
+        height: 43%;
+    }
+}
+
+
+@media screen and (max-width:355px) {
+    .popup-test_cross {
+        left: 300px;
+    }
+
+    .popup-test__form {
+        height: 43%;
+    }
+}
+
+@media screen and (max-width:345px) {
+    .popup-test_cross {
+        left: 290px;
+    }
+
+}
+
+@media screen and (max-width:330px) {
+    .popup-test_cross {
+        left: 280px;
+    }
+
+}
+
+@media screen and (max-width:320px) {
+    .popup-test__form {
+        height: 45%;
     }
 }
