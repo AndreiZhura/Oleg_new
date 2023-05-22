@@ -1,4 +1,4 @@
-.page-test {
+.popup-test {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -6,6 +6,10 @@
     backdrop-filter: blur(5px);
     display: flex;
     justify-content: center;
+}
+
+.popup-test_none {
+    display: none;
 }
 
 .popup-test__main {
@@ -16,7 +20,6 @@
     display: flex;
     justify-content: center;
     border: 1px solid green;
-
 }
 
 .popup-test_cross {
@@ -33,7 +36,7 @@
 }
 
 
-.page-test__form {
+.popup-test__form {
     background-color: white;
     border: 5px solid #737ff3;
     margin-top: 30px;
@@ -46,34 +49,34 @@
     padding-right: 15px;
 }
 
-.page-test__main-title {
+.popup-test__main-title {
     text-align: center;
     margin-bottom: 0;
 }
 
-.page-test__question-item {
+.popup-test__question-item {
     margin-bottom: 10px;
 }
 
-.page-test__title {
+.popup-test__title {
     text-align: center;
     margin-bottom: 5px;
 }
 
-.page-test__name-and-telephone {
+.popup-test__name-and-telephone {
     display: flex;
     flex-direction: column;
 }
 
-.page-test__input {
+.popup-test__input {
     margin-bottom: 10px;
 }
 
-.page-test__label {
+.popup-test__label {
     margin-bottom: 10px;
 }
 
-.page-test__button {
+.popup-test__button {
     width: 150px;
     height: 60px;
     background: linear-gradient(92.23deg, #737ff3 0%, #7360e7 100%);
@@ -114,5 +117,76 @@
 @media screen and (max-width:1326px) {
     .popup-test_cross {
         left: 380px;
+    }
+}
+
+@media screen and (max-width:1185px) {
+    .popup-test_cross {
+        left: 400px;
+    }
+
+    .popup-test__form {
+        margin-top: 20px;
+        width: 60%;
+        height: 65%;
+    }
+
+}
+
+@media screen and (max-width:1055px) {
+    .popup-test_cross {
+        left: 510px;
+    }
+
+    .popup-test__form {
+        margin-top: 20px;
+        width: 70%;
+        height: 64%;
+    }
+
+    .popup-test__main {
+        top: 0px;
+        width: 60%;
+        height: 20%;
+        border: 1px solid green;
+
+    }
+}
+
+@media screen and (max-width:1015px) {
+    .popup-test_cross {
+        left: 500px;
+    }
+
+    .popup-test__form {
+        margin-top: 20px;
+        width: 75%;
+        height: 58%;
+    }
+
+    .popup-test__main {
+        top: 0px;
+        width: 60%;
+        height: 20%;
+    }
+}
+
+@media screen and (max-width:939px) {
+    .popup-test_cross {
+        left: 535px;
+    }
+
+    .popup-test__form {
+        margin-top: 20px;
+        width: 75%;
+        height: 55%;
+    }
+
+    .popup-test__main {
+        top: 0px;
+        width: 70%;
+        height: 20%;
+        border: 1px solid green;
+
     }
 }
