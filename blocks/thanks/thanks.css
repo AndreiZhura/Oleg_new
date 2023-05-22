@@ -1,0 +1,33 @@
+.thanks {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.thanks__img{
+    width: 80%;
+}
+
+.thanks__link {
+    color: blue;
+    text-decoration: none;
+}
+
+@media screen and (max-width:408px) {
+    .thanks__title {
+        font-size: 18px;
+    }
+    .thanks__subtitle {
+        font-size: 16px;
+    }
+    
+ }
+
+
+@media screen and (max-width:384px) {
+    .thanks__subtitle {
+        font-size: 12px;
+    }
+    
+    
+ }
