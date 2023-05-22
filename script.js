@@ -6,13 +6,14 @@ const menuBurgerItem = document.querySelector('.menu-burger__navigation');
 const buttonTest = document.querySelector('.button__test');
 const nameInput = document.querySelector('.input__text');
 const tellInput = document.querySelector('.input__tell');
-const pageNameTest = document.querySelector('.page-test__input_name');
-const pageTellTest = document.querySelector('.popup-test__input_phone')
+const pageNameTest = document.querySelector('.popup-test__input_name');
+const pageTellTest = document.querySelector('.popup-test__input_phone');
 
 
 const passTestOpen = document.querySelector('.choice-condicioner__pass-test');
 const passTestClose = document.querySelector('.popup-test_cross');
 const popupTest = document.querySelector('.popup-test');
+
 
 
 
@@ -32,9 +33,15 @@ const closeTest = () =>{
     popupTest.classList.add('popup-test_none')
 }
 
-const valueInputTest = () =>{
-    console.log("проверка");
+function valueInputTest(){
+    openTest();
+    pageNameTest.value = nameInput.value;
+    pageTellTest.value = tellInput.value;
 
+
+    /*
+    nameInput.value = pageNameTest.textContent;
+    tellInput.value = pageTellTest.textContent;*/
 }
 
 
@@ -45,7 +52,7 @@ menuBurgerItem.addEventListener('click', event => {
 });
 passTestOpen.addEventListener('click', openTest);
 passTestClose.addEventListener('click', closeTest);
-buttonTest.addEventListener('click',valueInputTest);
+buttonTest.addEventListener('click',  valueInputTest);
 
 
 
