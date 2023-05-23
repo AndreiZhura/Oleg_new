@@ -413,6 +413,9 @@
         width: 90%;
 
     }
+    .choice-condicioner__content {
+       margin-bottom: 10px;
+    }
 }
 
 @media screen and (max-width: 540px) {

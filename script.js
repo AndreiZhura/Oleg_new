@@ -38,10 +38,6 @@ function valueInputTest(){
     pageNameTest.value = nameInput.value;
     pageTellTest.value = tellInput.value;
 
-
-    /*
-    nameInput.value = pageNameTest.textContent;
-    tellInput.value = pageTellTest.textContent;*/
 }
 
 

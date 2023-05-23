@@ -109,15 +109,12 @@
 .menu-right__close {
    cursor: pointer;
    position: absolute;
-
    width: 30px;
    height: 30px;
    background-color: white;
    border: none;
-   background-image: url(../../images/cross.png);
-   background-repeat: no-repeat;
-   background-position: center;
-   background-size: 100%;
+   font-size: 24px;
+   color: #7360e7;
    top: 20px;
    left: 85%;
    z-index: 3;

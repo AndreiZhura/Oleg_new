@@ -13,8 +13,8 @@
 }
 
 .main-pictures {
-  background-image: url(../../images/Mask\ group.png),
-    url(../../images/first-block.jpg);
+  background-image: url(../../images/flovers.png),
+    url(../../images/firstBlock_Big.jpg);
   height: 922px;
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -22,21 +22,19 @@
 
 @media screen and (max-width: 1280px) {
   .main-pictures {
-    background-image: url(../../images/Mask\ group.png),
-      url(../../images/first-block-ipad.jpg);
+    background-image: url(../../images/firstBlock_Big.jpg)
   }
 }
 
 @media screen and (max-width: 1024px) {
   .main-pictures {
-    background-image: url(../../images/flovers.png) cover,
-      url(../../images/first-block-ipad.jpg);
+    background-image:url(../../images/firstBlock__middle.jpg);
   }
 }
 
 @media screen and (max-width: 865px) {
   .main-pictures {
-    background-image: url(../../images/first-block-ipad.jpg);
+    background-image: url(../../images/firstBlock__middle.jpg);
     background-size: cover;
     background-position: 78%;
   }
@@ -44,6 +42,6 @@
 
 @media screen and (max-width: 768px) {
   .main-pictures {
-    background-image: url(../../images/one-block-main-small.png);
+    background-image: url(../../images/firstBlock_small.jpg);
   }
 }

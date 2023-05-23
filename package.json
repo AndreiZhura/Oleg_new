@@ -1,0 +1,25 @@
+{
+  "name": "oleg_air",
+  "version": "1.0.0",
+  "description": "сайт по продаже кондиционеров",
+  "main": "script.js",
+  "scripts": {
+    "build": "rm -rf dist && webpack --mode production",
+    "dev": "webpack serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndreiZhura/Oleg_new.git"
+  },
+  "author": "Andrew Zhuravlev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndreiZhura/Oleg_new/issues"
+  },
+  "homepage": "https://github.com/AndreiZhura/Oleg_new#readme",
+  "devDependencies": {
+    "webpack": "^5.83.1",
+    "webpack-cli": "^5.1.1",
+    "webpack-dev-server": "^4.15.0"
+  }
+}
