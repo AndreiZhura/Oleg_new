@@ -35,6 +35,11 @@
     color: #7360e7;
 }
 
+.popup-test__questions{
+    display: flex;
+    flex-direction: column;
+}
+
 
 .popup-test__form {
     background-color: white;
@@ -44,7 +49,7 @@
     display: flex;
     flex-direction: column;
     width: 50%;
-    height: 75%;
+    height: 100%;
     padding-left: 15px;
     padding-right: 15px;
 }
@@ -77,6 +82,9 @@
 }
 
 .popup-test__button {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
     width: 150px;
     height: 60px;
     background: linear-gradient(92.23deg, #737ff3 0%, #7360e7 100%);
@@ -88,11 +96,6 @@
     font-size: 20px;
     line-height: 29px;
     color: #ffffff;
-    margin-top: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 10px;
-
 }
 
 
