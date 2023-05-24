@@ -72,10 +72,12 @@
 .popup-test__name-and-telephone {
     display: flex;
     flex-direction: column;
+    
 }
 
 .popup-test__input {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #7360e7;
 }
 
 .popup-test__label {
@@ -83,7 +85,7 @@
 }
 
 .popup-test__button {
-    margin-top: 5px;
+    margin-top: 15px;
     margin-bottom: 5px;
     margin-left: auto;
     margin-right: auto;
@@ -109,13 +111,26 @@
 
 @media screen and (max-width:1626px) {
     .popup-test_cross {
-        left: 485px;
+        left: 455px;
     }
 }
 
-@media screen and (max-width:1525px) {
+@media screen and (max-width:1535px) {
     .popup-test_cross {
-        left: 465px;
+        left: 445px;
+    }
+
+    .popup-test__form {
+        height: 85%;
+    }
+}
+
+@media screen and (max-width:1486px) {
+    .popup-test__form {
+        height: 90%;
+    }
+    .popup-test__button {
+        margin-top: 15px;
     }
 }
 
@@ -133,8 +148,9 @@
     .popup-test__form {
         margin-top: 20px;
         width: 60%;
-        height: 65%;
+        height: 75%;
     }
+
 
 }
 
@@ -146,7 +162,7 @@
     .popup-test__form {
         margin-top: 20px;
         width: 70%;
-        height: 64%;
+        height: 68%;
     }
 
     .popup-test__main {
@@ -164,7 +180,7 @@
     .popup-test__form {
         margin-top: 20px;
         width: 75%;
-        height: 58%;
+        height: 65%;
     }
 
     .popup-test__main {
@@ -182,7 +198,7 @@
     .popup-test__form {
         margin-top: 20px;
         width: 75%;
-        height: 55%;
+        height: 57%;
     }
 
     .popup-test__main {
@@ -208,15 +224,13 @@
     .popup-test__form {
         margin-top: 20px;
         width: 75%;
-        height: 45%;
+        height: 48%;
     }
 
     .popup-test__main {
         top: 0px;
         width: 70%;
         height: 20%;
-
-
     }
 }
 
@@ -232,6 +246,12 @@
     }
 }
 
+@media screen and (max-width:712px) {
+    .popup-test__form {
+        height: 55%;
+    }
+}
+
 @media screen and (max-width:693px) {
     .popup-test_cross {
         left: 430px;
@@ -241,12 +261,7 @@
 
 @media screen and (max-width:617px) {
     .popup-test_cross {
-        left: 405px;
-    }
-
-
-    .popup-test__main {
-        width: 80%;
+        left: 345px;
     }
 }
 
@@ -281,7 +296,7 @@
 
     .popup-test__form {
         margin-top: 40px;
-        height: 44%;
+        height: 53%;
     }
 
 
@@ -300,8 +315,7 @@
 
     .popup-test__form {
         margin-top: 40px;
-        height: 44%;
-        width: 80%;
+        height: 50%;
     }
 }
 
@@ -322,7 +336,7 @@
     }
 
     .popup-test__form {
-        height: 43%;
+        height: 55%;
     }
 }
 
@@ -330,10 +344,6 @@
 @media screen and (max-width:355px) {
     .popup-test_cross {
         left: 300px;
-    }
-
-    .popup-test__form {
-        height: 43%;
     }
 }
 
@@ -346,13 +356,8 @@
 
 @media screen and (max-width:330px) {
     .popup-test_cross {
-        left: 280px;
+        left: 255px;
     }
 
 }
 
-@media screen and (max-width:320px) {
-    .popup-test__form {
-        height: 45%;
-    }
-}

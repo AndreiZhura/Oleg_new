@@ -522,6 +522,12 @@
     .choice-condicioner__button {
         margin-bottom: 10px;
     }
+    .choice-condicioner__anchor-link{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+    }
 
 }
 
