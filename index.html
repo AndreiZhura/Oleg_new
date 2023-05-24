@@ -153,7 +153,7 @@
     </section>
     
     <section
-    class="popup-test popup-test_none">
+    class="popup-test popup-test_none" id="test-popup">
     <div class="popup-test__main">
     
       <button
@@ -179,10 +179,10 @@
                   type="radio"
                   name="answer_1"
                   id ="answer_1"
-                  value="От 10 - 20 кв метров">
+                  value=" До 20 м.кв">
                 <label
                   class="popup-test__question-text"
-                  for="answer_1">От 10 - 20 кв метров</label>
+                  for="answer_1"> До 20 м.кв</label>
               </div>
               <div
                 class="popup-test__possible-answer">
@@ -191,10 +191,10 @@
                   type="radio"
                   name="answer_1"
                   id ="answer_2"
-                  value="От 20 - 30 кв метров">
+                  value="до 25 м.кв">
                 <label
                   class="popup-test__question-text"
-                  for="answer_2">От 20 - 30 кв метров</label>
+                  for="answer_2">до 25 м.кв</label>
               </div>
               <div
                 class="popup-test__possible-answer">
@@ -203,10 +203,10 @@
                   type="radio"
                   name="answer_1"
                   id ="answer_3"
-                  value="От 30 - 40 кв метров">
+                  value="до 35">
                 <label
                   class="popup-test__question-text"
-                  for="answer_3">От 30 - 40 кв метров</label>
+                  for="answer_3">до 35</label>
               </div>
               <div
                 class="popup-test__possible-answer">
@@ -215,10 +215,10 @@
                   type="radio"
                   name="answer_1"
                   id ="answer_4"
-                  value="От 40 - 50 кв метров">
+                  value="свыше 35">
                 <label
                   class="popup-test__question-text"
-                  for="answer_4">От 40 - 50 кв метров</label>
+                  for="answer_4">свыше 35</label>
               </div>
               
     
@@ -228,7 +228,7 @@
     
             <h4
               class="popup-test__title">
-              На какую ценовую категорию расчитываете?</h4>
+              Где будет располагаться кондиционер?</h4>
             <div
               class="popup-test__possible-answer">
               <input
@@ -236,10 +236,10 @@
                 type="radio"
                 name="answer_2"
                 id ="answer_1"
-                value="От 10 000 до 16 000 т.р">
+                value="спальня">
               <label
                 class="popup-test__question-text"
-                for="answer_1">От 10 000 до 16 000 т.р</label>
+                for="answer_1">спальня</label>
             </div>
             <div
               class="popup-test__possible-answer">
@@ -248,10 +248,10 @@
                 type="radio"
                 name="answer_2"
                 id ="answer_2"
-                value="От 16 000 до 25 000 т.р">
+                value="кухня">
               <label
                 class="popup-test__question-text"
-                for="answer_2">От 16 000 до 25 000 т.р</label>
+                for="answer_2">кухня</label>
             </div>
             <div
               class="popup-test__possible-answer">
@@ -260,10 +260,10 @@
                 type="radio"
                 name="answer_2"
                 id ="answer_3"
-                value="От 25 000 до 45 000 т.р">
+                value="зал">
               <label
                 class="popup-test__question-text"
-                for="answer_3">От 25 000 до 45 000 т.р</label>
+                for="answer_3">зал</label>
             </div>
             <div
               class="popup-test__possible-answer">
@@ -272,10 +272,10 @@
                 type="radio"
                 name="answer_2"
                 id ="answer_4"
-                value="От 45 000 и более">
+                value="детская">
               <label
                 class="popup-test__question-text"
-                for="answer_4">От 45 000 и более</label>
+                for="answer_4">детская</label>
             </div>
             
     
@@ -285,7 +285,7 @@
     
           <h4
             class="popup-test__title">
-            Наличие возможности управления с телефона?</h4>
+            В какой ценовой категории Вы хотели бы приобрести кондиционер?</h4>
           <div
             class="popup-test__possible-answer">
             <input
@@ -293,10 +293,10 @@
               type="radio"
               name="answer_3"
               id ="answer_1"
-              value="без встроенного WI-FI">
+              value="до 20т.р">
             <label
               class="popup-test__question-text"
-              for="answer_1">без встроенного WI-FI</label>
+              for="answer_1">до 20т.р</label>
           </div>
           <div
             class="popup-test__possible-answer">
@@ -305,10 +305,10 @@
               type="radio"
               name="answer_3"
               id ="answer_2"
-              value="co встроенным WI-FI">
+              value=" от 20 до 30">
             <label
               class="popup-test__question-text"
-              for="answer_2">co встроенным WI-FI</label>
+              for="answer_2"> от 20 до 30</label>
           </div>
           <div
             class="popup-test__possible-answer">
@@ -317,24 +317,31 @@
               type="radio"
               name="answer_3"
               id ="answer_3"
-              value="Без WI-FI, но с вожможностью встроить в дальнейшем">
+              value="от 30 до 45">
             <label
               class="popup-test__question-text"
-              for="answer_3">Без WI-FI, но с вожможностью встроить в дальнейшем</label>
+              for="answer_3">от 30 до 45</label>
           </div>
           <div
-            class="popup-test__possible-answer">
-          
-          </div>
-          
-    
+          class="popup-test__possible-answer">
+          <input
+            class="popup-test__question"
+            type="radio"
+            name="answer_3"
+            id ="answer_1"
+            value="от 45 и выше">
+          <label
+            class="popup-test__question-text"
+            for="answer_1">от 45 и выше</label>
+        </div>
+       
         </div>
         <div
         class="popup-test__question-item">
     
         <h4
           class="popup-test__title">
-          Энергоэффективность</h4>
+          На какую дату планируете покупку?</h4>
         <div
           class="popup-test__possible-answer">
           <input
@@ -342,10 +349,10 @@
             type="radio"
             name="answer_4"
             id ="answer_1"
-            value="Энергоэффективный (inverter)">
+            value="сегодня">
           <label
             class="popup-test__question-text"
-            for="answer_1">Энергоэффективный (inverter)</label>
+            for="answer_1">сегодня</label>
         </div>
         <div
           class="popup-test__possible-answer">
@@ -354,116 +361,37 @@
             type="radio"
             name="answer_4"
             id ="answer_2"
-            value="Обычный">
+            value="в течение месяца">
           <label
             class="popup-test__question-text"
-            for="answer_2">Обычный</label>
-        </div>
-        <div
-          class="popup-test__question-item">
-    
-          <h4
-            class="popup-test__title">
-            Наличие возможности управления с телефона?</h4>
-          <div
-            class="popup-test__possible-answer">
-            <input
-              class="popup-test__question"
-              type="radio"
-              name="answer_3"
-              id ="answer_1"
-              value="без встроенного WI-FI">
-            <label
-              class="popup-test__question-text"
-              for="answer_1">без встроенного WI-FI</label>
-          </div>
-          <div
-            class="popup-test__possible-answer">
-            <input
-              class="popup-test__question"
-              type="radio"
-              name="answer_3"
-              id ="answer_2"
-              value="co встроенным WI-FI">
-            <label
-              class="popup-test__question-text"
-              for="answer_2">co встроенным WI-FI</label>
-          </div>
-          <div
-            class="popup-test__possible-answer">
-            <input
-              class="popup-test__question"
-              type="radio"
-              name="answer_3"
-              id ="answer_3"
-              value="Без WI-FI, но с вожможностью встроить в дальнейшем">
-            <label
-              class="popup-test__question-text"
-              for="answer_3">Без WI-FI, но с вожможностью встроить в дальнейшем</label>
-          </div>
-          <div
-            class="popup-test__possible-answer">
-          
-          </div>
-          
-    
-        </div>
-        <div
-        class="popup-test__question-item">
-    
-        <h4
-          class="popup-test__title">
-          Когда планируете покупать?</h4>
-        <div
-          class="popup-test__possible-answer">
-          <input
-            class="popup-test__question"
-            type="radio"
-            name="answer_5"
-            id ="answer_1"
-            value="Сегодня">
-          <label
-            class="popup-test__question-text"
-            for="answer_1">Сегодня</label>
-        </div>
-        <div
-          class="popup-test__possible-answer">
-          <input
-            class="popup-test__question"
-            type="radio"
-            name="answer_5"
-            id ="answer_2"
-            value="В течении недели">
-          <label
-            class="popup-test__question-text"
-            for="answer_2">В течении недели</label>
+            for="answer_2"> в течение месяца</label>
         </div>
         <div
         class="popup-test__possible-answer">
         <input
           class="popup-test__question"
           type="radio"
-          name="answer_5"
-          id ="answer_1"
-          value="В течении месяца">
+          name="answer_4"
+          id ="answer_3"
+          value="в течение года">
         <label
           class="popup-test__question-text"
-          for="answer_1">В течении месяца</label>
+          for="answer_3">в течение года</label>
       </div>
       <div
-        class="popup-test__possible-answer">
-        <input
-          class="popup-test__question"
-          type="radio"
-          name="answer_5"
-          id ="answer_2"
-          value="В течении года">
-        <label
-          class="popup-test__question-text"
-          for="answer_2">В течении года</label>
-      </div>
-    
-      </div>
+          class="popup-test__possible-answer">
+          <input
+            class="popup-test__question"
+            type="radio"
+            name="answer_4"
+            id ="answer_4"
+            value="другое">
+          <label
+            class="popup-test__question-text"
+            for="answer_4">другое</label>
+        </div>
+        </div>
+       
           </div>
         <div class="popup-test__name-and-telephone">
           <label class="popup-test__label popup-test__label_name" for="name">Введите имя</label>
@@ -491,7 +419,7 @@
           </h2>
           <p
             class="choice-condicioner__subtitle">
-            Пройдите тест из 5 вопросов
+            Пройдите тест из 4 вопросов
             и мы подберем кондиционер
             под Ваши
             критерии
@@ -617,7 +545,7 @@
             class="we-working__container">
             <img
               class="we-working__picture we-working__picture_application"
-              src="images/application.jpg"
+              src="images/application.png"
               alt="Заявка" >
             <h4
               class="we-working__title-content we-working__title-content_application">
@@ -650,7 +578,7 @@
             class="we-working__container">
             <img
               class="we-working__picture we-working__picture_delivery"
-              src="images/delivery.jpg"
+              src="images/delivery.png"
               alt="Доставка" >
             <h4
               class="we-working__title-content we-working__title-content_delivery">
@@ -673,7 +601,7 @@
             class="we-working__container">
             <img
               class="we-working__picture we-working__picture__installation"
-              src="images/installation.jpg"
+              src="images/installation.png"
               alt="Установка" >
             <h4
               class="we-working__title-content we-working__title-content_installation">
@@ -852,9 +780,11 @@
               placeholder="8(___)___-__-__"
               name="phone"
               >
-            <button
-              class="button__test">Пройти
-              тест</button>
+            <a href="#test-popup">
+              <button
+                class="button__test" >Пройти
+                тест</button>
+            </a>
           </div>
         </div>
         <div class="container__img">

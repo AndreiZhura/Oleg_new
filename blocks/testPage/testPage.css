@@ -15,7 +15,7 @@
 
 .popup-test__main {
     top: 10px;
-    position: sticky;
+    position: absolute;
     width: 50%;
     height: 20%;
     display: flex;
@@ -49,13 +49,14 @@
     display: flex;
     flex-direction: column;
     width: 50%;
-    height: 100%;
+    height: 75%;
     padding-left: 15px;
     padding-right: 15px;
 }
 
 .popup-test__main-title {
     text-align: center;
+    margin-top: 10px;
     margin-bottom: 0;
 }
 
@@ -82,7 +83,8 @@
 }
 
 .popup-test__button {
-    margin-top: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
     margin-left: auto;
     margin-right: auto;
     width: 150px;
