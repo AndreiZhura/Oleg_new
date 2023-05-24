@@ -1,8 +1,3 @@
-// index.js
-
-import './index.css'; // добавьте импорт главного файла стилей
-
-
 const burgerButton = document.querySelector('.navtab__burger');
 const menuBurger = document.querySelector('.menu-burger');
 const menuBurgerClose = document.querySelector('.menu-right__close');
@@ -20,7 +15,7 @@ const passTestClose = document.querySelector('.popup-test_cross');
 const popupTest = document.querySelector('.popup-test');
 
 
-console.log('Hello, World!')
+
 
 function openBurgerMenu() {
     menuBurger.classList.remove('menu-burger_none');

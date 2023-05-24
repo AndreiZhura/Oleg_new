@@ -6,13 +6,15 @@
   <meta name="viewport"
     content="width=device-width, initial-scale=1">
   <meta name="description"
-    content="Наш сайт предлагает широкий ассортимент кондиционеров и климатического оборудования от ведущих производителей по выгодным ценам.
+    content="Наш сайт предлагает широкий ассортимент кондиционеров и климатического оборудования от ведущих производителей по выгодным ценам. 
   Мы также предлагаем монтаж и обслуживание наших товаров, а также вентиляционные и увлажнительные системы. Будьте уверены в качестве нашей продукции и наших услуг.
    Охладите свою жизнь с нашими кондиционерами!">
   <meta name="keywords"
     content="кондиционеры, сплит-системы, монтаж, обслуживание,вентиляция, климатическое оборудование, увлажнители воздуха, холодильное оборудование" >
   <meta name="author"
     content="Андрей Журавлев">
+  <link rel="stylesheet"
+    href="./pages/index.css">
   <title>
     Охладите свою жизнь с нашими
     кондиционерами - выбирайте комфорт и
@@ -45,19 +47,19 @@
       </nav>
       <button class="navtab__burger">
         <img class="navtab__icon"
-          src="../images/menu_hamburger.svg"
+          src="./images/menu_hamburger.svg"
           alt="меню" >
       </button>
       <nav class="navtell">
         <a class="navtell__item"
-          href="tel:+79508046596">&#9742;
-          +7(950)-804-65-96</a>
+          href="tel:+79153227045">&#9742;
+          +7 999-999-99-99</a>
         <a class="navtell__reguest-call"
           href="#Request_A_Call">Заказать
           звонок</a>
       </nav>
     </header>
-
+    
     <section
       class="menu-burger menu-burger_none">
       <button
@@ -100,14 +102,14 @@
       <div class="form-and-nav">
         <form class="top__form"
           method="POST"
-          action="../pages/telegram.php">
+          action="telegram.php">
           <input class="top__input"
             required="required"
             pattern="\8\s?[\(]{0,1}9[0-9]{2}[\)]{0,1}\s?\d{3}[-]{0,1}\d{2}[-]{0,1}\d{2}"
             placeholder="8(___)___-__-__"
             type="tel" name="phone"
             id="Request_A_Call">
-
+         
           <button class="top__button"
             type="submit">Получить
             консультацию</button>
@@ -149,15 +151,15 @@
         </nav>
       </div>
     </section>
-
+    
     <section
     class="popup-test popup-test_none" id="test-popup">
     <div class="popup-test__main">
-
+    
       <button
       class="popup-test_cross">X</button>
         <form class="popup-test__form"
-          action="../pages/telegram.php"
+          action="telegram.php"
           method="POST">
           <h3
             class="popup-test__main-title">
@@ -166,7 +168,7 @@
             class="popup-test__questions">
             <div
               class="popup-test__question-item">
-
+    
               <h4
                 class="popup-test__title">
                 Какая площадь комнаты в которой будет располагаться кондициогнер?</h4>
@@ -218,12 +220,12 @@
                   class="popup-test__question-text"
                   for="answer_4">свыше 35</label>
               </div>
-
-
+              
+    
             </div>
             <div
             class="popup-test__question-item">
-
+    
             <h4
               class="popup-test__title">
               Где будет располагаться кондиционер?</h4>
@@ -275,12 +277,12 @@
                 class="popup-test__question-text"
                 for="answer_4">детская</label>
             </div>
-
-
+            
+    
           </div>
           <div
           class="popup-test__question-item">
-
+    
           <h4
             class="popup-test__title">
             В какой ценовой категории Вы хотели бы приобрести кондиционер?</h4>
@@ -332,11 +334,11 @@
             class="popup-test__question-text"
             for="answer_1">от 45 и выше</label>
         </div>
-
+       
         </div>
         <div
         class="popup-test__question-item">
-
+    
         <h4
           class="popup-test__title">
           На какую дату планируете покупку?</h4>
@@ -389,7 +391,7 @@
             for="answer_4">другое</label>
         </div>
         </div>
-
+       
           </div>
         <div class="popup-test__name-and-telephone">
           <label class="popup-test__label popup-test__label_name" for="name">Введите имя</label>
@@ -869,7 +871,7 @@
     </nav>
 
   </footer>
-
+  <script src="script.js"></script>
 </body>
 
 </html>
