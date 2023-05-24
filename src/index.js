@@ -1,4 +1,6 @@
+// index.js
 
+import './index.css'; // добавьте импорт главного файла стилей
 
 
 const burgerButton = document.querySelector('.navtab__burger');
