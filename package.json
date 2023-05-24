@@ -2,9 +2,9 @@
   "name": "oleg_air",
   "version": "1.0.0",
   "description": "сайт по продаже кондиционеров",
-  "main": "script.js",
+  "main": "index.js",
   "scripts": {
-    "build": "rm -rf dist && webpack --mode production",
+    "build": "rimraf build && webpack",
     "dev": "webpack serve"
   },
   "repository": {
@@ -18,8 +18,15 @@
   },
   "homepage": "https://github.com/AndreiZhura/Oleg_new#readme",
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1",
     "webpack": "^5.83.1",
     "webpack-cli": "^5.1.1",
     "webpack-dev-server": "^4.15.0"
+  },
+  "dependencies": {
+    "core-js": "^3.30.2",
+    "save-dev": "^0.0.1-security"
   }
 }
