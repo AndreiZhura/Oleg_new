@@ -1,3 +1,5 @@
+// webpack.config.js
+
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
@@ -5,30 +7,28 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 module.exports = {
   entry: './src/script.js', // Основной файл JS-приложения
   output: {
-    filename: 'bundle.js', // Имя выходного файла
+    filename: 'script.js', // Имя выходного файла
     path: path.resolve(__dirname, 'dist') // Директория назначения
   },
   module: {
     rules: [
       // SCSS/SASS → CSS → JS
       {
-        test: /\.(scss|css)$/,
+        test: /\.(scss|css)$/, // Используем одно регулярное выражение для обоих типов файлов
         use: [
-          MiniCssExtractPlugin.loader,
-          'style-loader', // Injects styles into DOM
-          'css-loader', // Translates CSS into CommonJS
-          'sass-loader' // Compiles Sass to CSS
+          MiniCssExtractPlugin.loader, // Сначала применяем MiniCssExtractPlugin
+          'css-loader',                 // Затем обрабатываем CSS с помощью css-loader
         ]
       },
-      // Загружаем изображения и шрифты
+      // Обработка изображений и шрифтов
       {
         test: /\.(png|jpg|gif|svg|ttf|woff|woff2|eot)$/,
         type: 'asset/resource',
         generator: {
-          filename: 'assets/[name][ext]'
+          filename: 'assets/[name][ext]' // Сохраняем ресурсы в папку assets
         }
       },
-      // HTML-файл
+      // HTML-файлы
       {
         test: /\.html$/i,
         loader: 'html-loader'
@@ -37,12 +37,12 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: './src/index.html', // Исходный HTML-файл
-      filename: 'index.html'        // Результат HTML
+      template: './src/index.html', // Шаблон исходного HTML-файла
+      filename: 'index.html'       // Название итогового HTML-файла
     }),
-    new MiniCssExtractPlugin({     // Выделяет CSS в отдельный файл
-      filename: './src/index.css'
+    new MiniCssExtractPlugin({  
+      filename: 'styles.css'       // Назначение имени выходному файлу CSS
     })
   ],
-  mode: 'development' // Режим сборки: 'development' или 'production'
+  mode: 'production'              // Устанавливаем режим сборки
 };
