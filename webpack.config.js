@@ -15,8 +15,9 @@ module.exports = {
         test: /\.(scss|css)$/,
         use: [
           MiniCssExtractPlugin.loader,
-          'css-loader',
-          'sass-loader'
+          'style-loader', // Injects styles into DOM
+          'css-loader', // Translates CSS into CommonJS
+          'sass-loader' // Compiles Sass to CSS
         ]
       },
       // Загружаем изображения и шрифты

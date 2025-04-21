@@ -1,5 +1,5 @@
 .we-working {
-    background-image: url(../../../images/Third_Block_Background.jpg);
+    background-image: url(../../images/Third_Block_Background.jpg);
     margin-top: 0px;
     width: 100%;
     background-repeat: no-repeat;
@@ -432,7 +432,7 @@
     .we-working {
       height: 1730px;
   
-      background-image: url(../../../images/we-working-background-small.jpg);
+      background-image: url(../../images/we-working-background-small.jpg);
       background-size: 100% 100%;
       background-repeat: no-repeat;
     }
