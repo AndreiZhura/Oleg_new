@@ -1,612 +1,603 @@
 .top {
-    margin-left: 12.4%;
+  margin-left: 12.4%;
+}
+
+.top__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+  width: 891px;
+  height: 177px;
+  margin-top: 27px;
+  margin-left: 1px;
+}
+
+.top__title_color {
+  color: #4553d7;
+}
+
+.top__title_color:last-child {
+  margin-left: 15px;
+}
+
+.top__subtitle {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 34px;
+  color: #1b1b1b;
+  width: 754px;
+  height: 68px;
+  margin-top: 52px;
+  margin-left: 5px;
+}
+
+.top__ball {
+  background-image: url(../../images/Ellipse_1.svg);
+  background-repeat: no-repeat;
+  height: 13px;
+  width: 13px;
+  margin-top: 57px;
+  margin-left: 16px;
+}
+
+.top__ball::after {
+  position: absolute;
+  content: url(../../images/Ellipse_1.svg);
+  margin-left: 12px;
+  margin-top: -5px;
+}
+
+.top__ball::before {
+  position: absolute;
+  content: url(../../images/Ellipse_1.svg);
+  margin-left: -12px;
+  margin-top: -5px;
+}
+
+.top__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 10px;
+  width: 412px;
+  height: 259px;
+  margin-top: 45px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.4);
+}
+
+.top__column {
+  position: relative;
+  margin-top: 55px;
+  margin-left: 38px;
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(1.5px);
+  border-radius: 10px;
+  width: 95px;
+  height: 236px;
+}
+
+.top__input {
+  height: 80px;
+  width: 382px;
+  margin-top: 20px;
+  margin-left: 10px;
+  border: 1px solid #5c69e0;
+  border-radius: 15px;
+  padding-left: 35px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #414141;
+}
+
+.top__input::placeholder {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #414141;
+}
+
+.top__button {
+  width: 382px;
+  height: 80px;
+  background: linear-gradient(92.23deg, #737ff3 0%, #7360e7 100%);
+  border-radius: 15px;
+  border: none;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+  margin-top: 7px;
+  margin-left: 6px;
+}
+
+.top__text {
+  width: 333px;
+  margin-top: 10px;
+  margin-left: 7px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #414141;
+}
+
+.form-and-nav {
+  display: flex;
+}
+
+.air__conditioner {
+  position: absolute;
+  width: 950px;
+  height: 770px;
+  top: 100px;
+  right: 0px;
+  z-index: 0;
+  background: url(../../images/pngwing.com_1.svg) bottom -26px right 40px no-repeat,
+    url(../../images/pngwing.com_2.svg) top -100px right 54px no-repeat;
+}
+
+.top__column_content_social {
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.4);
+}
+
+.top__column-links {
+  padding-left: 0px;
+  list-style-type: none;
+}
+
+.top__column-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  margin-left: 15px;
+  margin-bottom: 8px;
+  width: 63px;
+  height: 63px;
+  border-radius: 10px;
+}
+
+.top__column-link-telegramm {
+  background-color: rgb(125, 198, 251);
+}
+
+.top__column-link-whatsup {
+  background-color: rgb(102, 237, 136);
+}
+
+.top__column-link-vkontakte {
+  background-color: rgb(97, 156, 243);
+}
+
+.top__social-icon {
+  width: 27.02px;
+  height: 27.98px;
+}
+
+@media screen and (max-width: 1919px) {
+  .top {
+    margin-left: 12%;
   }
-  
+
+  .air__conditioner {
+    background: url(../../images/pngwing.com_1.svg) bottom -26px right -22px no-repeat,
+      url(../../images/pngwing.com_2.svg) top -100px right -45px no-repeat;
+  }
+}
+
+@media screen and (max-width: 1895px) {
+  .top {
+    margin-left: 11.5%;
+  }
+}
+
+@media screen and (max-width: 1860px) {
+  .top {
+    margin-left: 11%;
+  }
+}
+
+@media screen and (max-width: 1835px) {
+  .top {
+    margin-left: 10.5%;
+  }
+}
+
+@media screen and (max-width: 1800px) {
+  .top {
+    margin-left: 9%;
+  }
+}
+
+@media screen and (max-width: 1730px) {
+  .top {
+    margin-left: calc(8% - 2%);
+  }
+
   .top__title {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 59px;
-    width: 891px;
-    height: 177px;
-    margin-top: 27px;
-    margin-left: 1px;
+    font-size: 36px;
+    line-height: 44px;
+    width: 661px;
+    margin-bottom: 0px;
   }
-  
-  .top__title_color {
-    color: #4553d7;
-  }
-  
-  .top__title_color:last-child {
-    margin-left: 15px;
-  }
-  
+
   .top__subtitle {
-    font-family: "Montserrat";
-    font-style: normal;
-    font-weight: 600;
-    font-size: 28px;
-    line-height: 34px;
-    color: #1b1b1b;
-    width: 754px;
-    height: 68px;
-    margin-top: 52px;
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 1730px) {
+  .top {
+    margin-left: calc(8% - 3%);
+  }
+}
+
+@media screen and (max-width: 1605px) {
+  .top {
+    margin-left: 5%;
+  }
+}
+
+@media screen and (max-width: 1585px) {
+  .top {
+    margin-left: 4.5%;
+  }
+}
+
+@media screen and (max-width: 1550px) {
+  .top {
+    margin-left: 3%;
+  }
+}
+
+@media screen and (max-width: 1510px) {
+  .top {
+    margin-left: 12.5%;
+  }
+
+  .top__title {
+    margin-top: 50px;
+  }
+
+  .air__conditioner {
+    background: url(../../images/condey-small-11-two.svg) bottom 140px right -22px no-repeat,
+      url(../../images/condey-small-11-one.svg) top -100px right -45px no-repeat;
+  }
+}
+
+@media screen and (max-width: 1450px) {
+  .top {
+    margin-left: 11%;
+  }
+}
+
+@media screen and (max-width: 1380px) {
+  .top {
+    margin-left: 9%;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .top {
+    margin-left: 6%;
+  }
+}
+
+@media screen and (max-width: 1230px) {
+  .top {
+    margin-left: 4%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .air__conditioner {
+    background: url(../../images/condey-small-11-two.svg) bottom 140px right -40px no-repeat,
+      url(../../images/condey-small-11-one.svg) top -100px right -45px no-repeat;
+  }
+}
+
+@media screen and (max-width: 1155px) {
+  .top {
+    margin-left: 2%;
+  }
+
+  .top__title {
+    font-size: 32px;
+    width: 500px;
+  }
+
+  .top__subtitle {
+    font-size: 16px;
+    width: 450px;
+  }
+
+  .top__column {
+    margin-left: 20px;
+  }
+
+  .form-and-nav {
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: 1125px) {
+  .top {
+    margin-left: 5%;
+  }
+
+  .top__title {
+    margin-top: 105px;
+  }
+
+  .top__subtitle {
+    margin-top: 20px;
+  }
+
+  .form-and-nav {
+    margin-top: 60px;
+  }
+}
+
+@media screen and (max-width: 1021px) {
+  .top__title {
+    margin-top: 45px;
+    margin-bottom: 62px;
+    width: 300px;
+  }
+
+  .top__subtitle {
+    width: 300px;
+  }
+
+  .air__conditioner {
+    background: url(../../images/condey-small-11-two.svg) bottom 230px right -40px no-repeat,
+      url(../../images/condey-small-11-one.svg) top -175px right -45px no-repeat;
+  }
+}
+
+@media screen and (max-width: 951px) {
+  .top__subtitle {
+    margin-top: 105px;
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 868px) {
+  .top__title {
+    width: 90%;
+    height: 90px;
+    margin-top: 100px;
+    margin-bottom: 0px;
+  }
+
+  .top__subtitle {
+    position: relative;
+    z-index: 2;
+    width: 90%;
+    margin-top: 50px;
+  }
+
+
+
+  .air__conditioner {
+    top: -520px;
+    right: -62%;
+    position: absolute;
+    z-index: -1;
+    background: url(../../images/condey-small-11-two.svg) bottom 30px right 10% no-repeat,
+      url(../../images/condey-small-11-one.svg) top 10px right 10% no-repeat;
+
+  }
+
+  .form-and-nav {
+    position: absolute;
+    z-index: 1;
+    margin-top: 200px;
+  }
+
+  .top__ball {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 863px) {
+  .air__conditioner {
+    right: -55%;
+  }
+}
+
+@media screen and (max-width: 855px) {
+  .air__conditioner {
+    right: -45%;
+  }
+}
+
+@media screen and (max-width: 805px) {
+  .air__conditioner {
+    right: -35%;
+  }
+}
+
+@media screen and (max-width: 751px) {
+  .air__conditioner {
+    right: -25%;
+  }
+}
+
+
+@media screen and (max-width: 690px) {
+  .air__conditioner {
+    right: -20%;
+    width: 120%;
+  }
+}
+
+@media screen and (max-width: 682px) {
+  .top__title {
+    position: relative;
+    z-index: 2;
+  }
+
+}
+
+@media screen and (max-width: 662px) {
+  .air__conditioner {
+    right: -10%;
+  }
+}
+
+
+
+@media screen and (max-width: 600px) {
+  .air__conditioner {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 594px) {
+  .top__subtitle {
+    width: 90%;
+    margin-top: 145px;
+  }
+
+  .form-and-nav {
+    margin-top: 70px;
+  }
+
+  .top__form {
+    width: 320px;
+    height: 259px;
+  }
+
+  .top__input {
+    width: 300px;
+  }
+
+  .top__button {
+    width: 300px;
+    font-size: 12px;
+  }
+
+  .top__text {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .top__form {
+    width: 285px;
+  }
+
+  .top__input {
+    width: 255px;
+  }
+
+  .top__button {
+    width: 255px;
+    font-size: 12px;
+  }
+
+  .top__text {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 436px) {
+  .top__column {
     margin-left: 5px;
   }
-  
-  .top__ball {
-    background-image: url(../../images/Ellipse_1.svg);
-    background-repeat: no-repeat;
-    height: 13px;
-    width: 13px;
-    margin-top: 57px;
-    margin-left: 16px;
-  }
-  
-  .top__ball::after {
-    position: absolute;
-    content: url(../../images/Ellipse_1.svg);
-    margin-left: 12px;
-    margin-top: -5px;
-  }
-  
-  .top__ball::before {
-    position: absolute;
-    content: url(../../images/Ellipse_1.svg);
-    margin-left: -12px;
-    margin-top: -5px;
-  }
-  
+}
+
+@media screen and (max-width: 425px) {
   .top__form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #fff;
-    border-radius: 10px;
-    width: 412px;
-    height: 259px;
-    margin-top: 45px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.4);
+    width: 230px;
   }
-  
-  .top__column {
-    position: relative;
-    margin-top: 55px;
-    margin-left: 38px;
-    background: rgba(255, 255, 255, 0.25);
-    backdrop-filter: blur(1.5px);
-    border-radius: 10px;
-    width: 95px;
-    height: 236px;
-  }
-  
+
   .top__input {
-    height: 80px;
-    width: 382px;
-    margin-top: 20px;
-    margin-left: 10px;
-    border: 1px solid #5c69e0;
-    border-radius: 15px;
-    padding-left: 35px;
-    font-family: "Montserrat";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
-    color: #414141;
+    width: 210px;
   }
-  
-  .top__input::placeholder {
-    font-family: "Montserrat";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
-    color: #414141;
-  }
-  
+
   .top__button {
-    width: 382px;
-    height: 80px;
-    background: linear-gradient(92.23deg, #737ff3 0%, #7360e7 100%);
-    border-radius: 15px;
-    border: none;
-    font-family: "Montserrat";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 29px;
-    color: #ffffff;
-    margin-top: 7px;
-    margin-left: 6px;
+    width: 210px;
   }
-  
+
   .top__text {
-    width: 333px;
-    margin-top: 10px;
-    margin-left: 7px;
-    font-family: "Montserrat";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
-    text-align: center;
-    color: #414141;
+    font-size: 8px;
+    width: 150px;
   }
-  
+}
+
+@media screen and (max-width: 375px) {
+  .top__title {
+    font-size: 25px;
+  }
+
+  .top__text {
+    font-size: 12px;
+    width: 205px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .top {
+    margin-left: 2%;
+  }
+
   .form-and-nav {
-    display: flex;
+    width: 100%;
   }
-  
-  .air__conditioner {
-    position: absolute;
-    width: 950px;
-    height: 770px;
-    top: 100px;
-    right: 0px;
-    z-index: 0;
-    background: url(../../images/pngwing.com_1.svg)
-        bottom -26px right 40px no-repeat,
-      url(../../images/pngwing.com_2.svg) top -100px right
-        54px no-repeat;
+
+  .top__title {
+    font-size: 25px;
   }
-  
-  .top__column_content_social {
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.4);
+
+  .top__text {
+    font-size: 12px;
+    width: 205px;
   }
-  
-  .top__column-links {
-    padding-left: 0px;
-    list-style-type: none;
+
+  .top__column {
+    width: 75px;
+    height: 205px;
   }
-  
+
   .top__column-link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    margin-left: 15px;
-    margin-bottom: 8px;
-    width: 63px;
-    height: 63px;
-    border-radius: 10px;
+    margin-left: 12px;
+    width: 53px;
+    height: 53px;
   }
-  
-  .top__column-link-telegramm {
-    background-color: rgb(125, 198, 251);
+}
+
+@media screen and (max-width: 345px) {
+  .form-and-nav {
+    width: 100%;
+    margin-left: -10px;
   }
-  
-  .top__column-link-whatsup {
-    background-color: rgb(102, 237, 136);
+}
+
+@media screen and (max-width: 335px) {
+  .form-and-nav {
+    margin-left: -15px;
   }
-  
-  .top__column-link-vkontakte {
-    background-color: rgb(97, 156, 243);
+}
+
+@media screen and (max-width: 320px) {
+  .top__form {
+    width: 225px;
   }
-  
-  .top__social-icon {
-    width: 27.02px;
-    height: 27.98px;
-  }
-  
-  @media screen and (max-width: 1919px) {
-    .top {
-      margin-left: 12%;
-    }
-  
-    .air__conditioner {
-      background: url(../../images/pngwing.com_1.svg)
-          bottom -26px right -22px no-repeat,
-        url(../../images/pngwing.com_2.svg) top -100px right -45px
-          no-repeat;
-    }
-  }
-  
-  @media screen and (max-width: 1895px) {
-    .top {
-      margin-left: 11.5%;
-    }
-  }
-  
-  @media screen and (max-width: 1860px) {
-    .top {
-      margin-left: 11%;
-    }
-  }
-  
-  @media screen and (max-width: 1835px) {
-    .top {
-      margin-left: 10.5%;
-    }
-  }
-  
-  @media screen and (max-width: 1800px) {
-    .top {
-      margin-left: 9%;
-    }
-  }
-  
-  @media screen and (max-width: 1730px) {
-    .top {
-      margin-left: calc(8% - 2%);
-    }
-  
-    .top__title {
-      font-size: 36px;
-      line-height: 44px;
-      width: 661px;
-      margin-bottom: 0px;
-    }
-  
-    .top__subtitle {
-      font-size: 20px;
-      line-height: 24px;
-      margin-top: 10px;
-    }
-  }
-  
-  @media screen and (max-width: 1730px) {
-    .top {
-      margin-left: calc(8% - 3%);
-    }
-  }
-  
-  @media screen and (max-width: 1605px) {
-    .top {
-      margin-left: 5%;
-    }
-  }
-  
-  @media screen and (max-width: 1585px) {
-    .top {
-      margin-left: 4.5%;
-    }
-  }
-  
-  @media screen and (max-width: 1550px) {
-    .top {
-      margin-left: 3%;
-    }
-  }
-  
-  @media screen and (max-width: 1510px) {
-    .top {
-      margin-left: 12.5%;
-    }
-  
-    .top__title {
-      margin-top: 50px;
-    }
-  
-    .air__conditioner {
-      background: url(../../images/condey-small-11-two.svg) bottom 140px right -22px
-          no-repeat,
-        url(../../images/condey-small-11-one.svg) top -100px right -45px no-repeat;
-    }
-  }
-  
-  @media screen and (max-width: 1450px) {
-    .top {
-      margin-left: 11%;
-    }
-  }
-  
-  @media screen and (max-width: 1380px) {
-    .top {
-      margin-left: 9%;
-    }
-  }
-  
-  @media screen and (max-width: 1280px) {
-    .top {
-      margin-left: 6%;
-    }
-  }
-  
-  @media screen and (max-width: 1230px) {
-    .top {
-      margin-left: 4%;
-    }
-  }
-  
-  @media screen and (max-width: 1200px) {
-    .air__conditioner {
-      background: url(../../images/condey-small-11-two.svg) bottom 140px right -40px
-          no-repeat,
-        url(../../images/condey-small-11-one.svg) top -100px right -45px no-repeat;
-    }
-  }
-  
-  @media screen and (max-width: 1155px) {
-    .top {
-      margin-left: 2%;
-    }
-  
-    .top__title {
-      font-size: 32px;
-      width: 500px;
-    }
-  
-    .top__subtitle {
-      font-size: 16px;
-      width: 450px;
-    }
-  
-    .top__column {
-      margin-left: 20px;
-    }
-  
-    .form-and-nav {
-      margin-top: 40px;
-    }
-  }
-  
-  @media screen and (max-width: 1125px) {
-    .top {
-      margin-left: 5%;
-    }
-  
-    .top__title {
-      margin-top: 105px;
-    }
-  
-    .top__subtitle {
-      margin-top: 20px;
-    }
-  
-    .form-and-nav {
-      margin-top: 60px;
-    }
-  }
-  
-  @media screen and (max-width: 1021px) {
-    .top__title {
-      margin-top: 45px;
-      margin-bottom: 62px;
-      width: 300px;
-    }
-  
-    .top__subtitle {
-      width: 300px;
-    }
-  
-    .air__conditioner {
-      background: url(../../images/condey-small-11-two.svg) bottom 230px right -40px
-          no-repeat,
-        url(../../images/condey-small-11-one.svg) top -175px right -45px no-repeat;
-    }
-  }
-  
-  @media screen and (max-width: 951px) {
-    .top__subtitle {
-      margin-top: 105px;
-      width: 250px;
-    }
-  }
-  
-  @media screen and (max-width: 868px) {
-    .top__title {
-      width: 90%;
-      height: 90px;
-      margin-top: 100px;
-      margin-bottom: 0px;
-    }
-  
-    .top__subtitle {
-      position: relative;
-      z-index: 2;
-      width: 90%;
-      margin-top: 50px;
-    }
-  
-   
-  
-    .air__conditioner {
-      top: -520px;
-      right: -62%;
-      position: absolute;
-      z-index: -1;
-      background: url(../../images/condey-small-11-two.svg) bottom 30px right 10%
-          no-repeat,
-        url(../../images/condey-small-11-one.svg) top 10px right 10% no-repeat;
-       
-    }
-  
-    .form-and-nav {
-      position: absolute;
-      z-index: 1;
-      margin-top: 200px;
-    }
-  
-    .top__ball {
-      margin-top: 30px;
-    }
-  }
-  
-  @media screen and (max-width: 863px) {
-    .air__conditioner {
-      right: -55%;
-    }
-  }
-  
-  @media screen and (max-width: 855px) {
-    .air__conditioner {
-      right: -45%;
-    }
-  }
-  
-  @media screen and (max-width: 805px) {
-    .air__conditioner {
-      right: -35%;
-    }
-  }
-  
-  @media screen and (max-width: 751px) {
-    .air__conditioner {
-      right: -25%;
-    }
-  }
-  
-  
-  @media screen and (max-width: 690px) {
-    .air__conditioner {
-      right: -20%;
-      width: 120%;
-    }
-  }
-  
-  @media screen and (max-width: 682px) {
-    .top__title {
-     position: relative;
-     z-index: 2;
-    }
-    
-  }
-  
-  @media screen and (max-width: 662px) {
-    .air__conditioner {
-      right: -10%;
-    }
-  }
-  
-  
-  
-  @media screen and (max-width: 600px) {
-    .air__conditioner {
-      display: none;
-    }
-  }
-  
-  @media screen and (max-width: 594px) {
-    .top__subtitle {
-      width: 90%;
-      margin-top: 145px;
-    }
-  
-    .form-and-nav {
-      margin-top: 70px;
-    }
-  
-    .top__form {
-      width: 320px;
-      height: 259px;
-    }
-  
-    .top__input {
-      width: 300px;
-    }
-  
-    .top__button {
-      width: 300px;
-      font-size: 12px;
-    }
-  
-    .top__text {
-      font-size: 12px;
-    }
-  }
-  
-  @media screen and (max-width: 470px) {
-    .top__form {
-      width: 285px;
-    }
-  
-    .top__input {
-      width: 255px;
-    }
-  
-    .top__button {
-      width: 255px;
-      font-size: 12px;
-    }
-  
-    .top__text {
-      font-size: 12px;
-    }
-  }
-  
-  @media screen and (max-width: 436px) {
-    .top__column {
-      margin-left: 5px;
-    }
-  }
-  
-  @media screen and (max-width: 425px) {
-    .top__form {
-      width: 230px;
-    }
-  
-    .top__input {
-      width: 210px;
-    }
-  
-    .top__button {
-      width: 210px;
-    }
-  
-    .top__text {
-      font-size: 8px;
-      width: 150px;
-    }
-  }
-  
-  @media screen and (max-width: 375px) {
-    .top__title {
-      font-size: 25px;
-    }
-  
-    .top__text {
-      font-size: 12px;
-      width: 205px;
-    }
-  }
-  
-  @media screen and (max-width: 360px) {
-    .top {
-      margin-left: 2%;
-    }
-  
-    .form-and-nav {
-      width: 100%;
-    }
-  
-    .top__title {
-      font-size: 25px;
-    }
-  
-    .top__text {
-      font-size: 12px;
-      width: 205px;
-    }
-  
-    .top__column {
-      width: 75px;
-      height: 205px;
-    }
-  
-    .top__column-link {
-      margin-left: 12px;
-      width: 53px;
-      height: 53px;
-    }
-  }
-  
-  @media screen and (max-width: 345px) {
-    .form-and-nav {
-      width: 100%;
-      margin-left: -10px;
-    }
-  }
-  
-  @media screen and (max-width: 335px) {
-    .form-and-nav {
-      margin-left: -15px;
-    }
-  }
-  
-  @media screen and (max-width: 320px) {
-    .top__form {
-      width: 225px;
-    }
-  }
-  
+}

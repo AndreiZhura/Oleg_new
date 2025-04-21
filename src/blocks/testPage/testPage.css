@@ -19,7 +19,7 @@
     width: 50%;
     height: 20%;
     display: flex;
-    justify-content: center;    
+    justify-content: center;
 }
 
 .popup-test_cross {
@@ -35,7 +35,7 @@
     color: #7360e7;
 }
 
-.popup-test__questions{
+.popup-test__questions {
     display: flex;
     flex-direction: column;
 }
@@ -72,7 +72,7 @@
 .popup-test__name-and-telephone {
     display: flex;
     flex-direction: column;
-    
+
 }
 
 .popup-test__input {
@@ -129,6 +129,7 @@
     .popup-test__form {
         height: 90%;
     }
+
     .popup-test__button {
         margin-top: 15px;
     }
@@ -198,7 +199,7 @@
     .popup-test__form {
         margin-top: 20px;
         width: 75%;
-   
+
     }
 
     .popup-test__main {
@@ -224,7 +225,7 @@
     .popup-test__form {
         margin-top: 20px;
         width: 75%;
-       
+
     }
 
     .popup-test__main {
@@ -310,7 +311,7 @@
 
     .popup-test__form {
         margin-top: 40px;
-      
+
     }
 }
 
@@ -321,7 +322,7 @@
         left: 310px;
     }
 
-   
+
 }
 
 
@@ -344,4 +345,3 @@
     }
 
 }
-

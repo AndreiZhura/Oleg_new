@@ -1,4 +1,3 @@
-
 .page {
   position: relative;
   margin-top: 0;
@@ -9,14 +8,9 @@
   max-width: 1920px;
 }
 
-
-
 * {
-  box-sizing: border-box; 
+  box-sizing: border-box;
 }
-
-
-
 
 .main-pictures {
   background-image: url(../../images/flovers.png),
@@ -35,7 +29,7 @@
 
 @media screen and (max-width: 1024px) {
   .main-pictures {
-    background-image:url(../../images/firstBlock__middle.jpg);
+    background-image: url(../../images/firstBlock__middle.jpg);
   }
 }
 
