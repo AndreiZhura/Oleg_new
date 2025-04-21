@@ -1,6 +1,7 @@
 
 .page {
   position: relative;
+  margin-top: 0;
   margin-left: auto;
   margin-right: auto;
   font-family: Montserrat, Arial, Helvetica, sans-serif;
@@ -8,9 +9,14 @@
   max-width: 1920px;
 }
 
+
+
 * {
   box-sizing: border-box; 
 }
+
+
+
 
 .main-pictures {
   background-image: url(../../images/flovers.png),
@@ -18,6 +24,7 @@
   height: 922px;
   background-repeat: no-repeat;
   background-size: 100% 100%;
+
 }
 
 @media screen and (max-width: 1280px) {

@@ -6,8 +6,6 @@ $answerTwo = $_POST['answer_2'];
 $answerThree = $_POST['answer_3'];
 $answerFour = $_POST['answer_4'];
 
-
-
 $token = "5618935755:AAFX4G8Ou3xCBoQqcd98ezPzs06iSdBD1Fo";
 $chat_id = "-954869352";
 $arr = array(
