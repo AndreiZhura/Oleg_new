@@ -255,7 +255,6 @@
   
   @media screen and (max-width: 869px) {
     .container {
-      grid-template-rows: 1fr 1fr 1fr;
       grid-template-areas:
         "test test"
         "img img"
@@ -323,6 +322,7 @@
       width: 476px;
       height: 106px;
       margin-left: 61px;
+      margin-bottom: 100px;
     }
   
     .top__column_end {
