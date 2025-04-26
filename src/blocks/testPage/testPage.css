@@ -42,6 +42,7 @@
 
 
 .popup-test__form {
+   
     background-color: white;
     border: 5px solid #737ff3;
     margin-top: 30px;
@@ -170,6 +171,7 @@
         top: 0px;
         width: 60%;
         height: 20%;
+    
     }
 }
 
@@ -220,18 +222,19 @@
 @media screen and (max-width:869px) {
     .popup-test_cross {
         left: 535px;
+   
     }
 
     .popup-test__form {
         margin-top: 20px;
         width: 75%;
-
+        
     }
 
     .popup-test__main {
         top: 0px;
         width: 70%;
-        height: 20%;
+        height: 22%;
     }
 }
 
@@ -269,6 +272,7 @@
 
     .popup-test__main {
         width: 100%;
+        
     }
 }
 
