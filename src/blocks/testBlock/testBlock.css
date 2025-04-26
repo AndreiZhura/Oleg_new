@@ -413,8 +413,9 @@
         width: 90%;
 
     }
+
     .choice-condicioner__content {
-       margin-bottom: 10px;
+        margin-bottom: 10px;
     }
 }
 
@@ -522,7 +523,8 @@
     .choice-condicioner__button {
         margin-bottom: 10px;
     }
-    .choice-condicioner__anchor-link{
+
+    .choice-condicioner__anchor-link {
         width: 100%;
         display: flex;
         justify-content: center;

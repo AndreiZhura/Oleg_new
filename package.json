@@ -4,8 +4,8 @@
   "description": "сайт по продаже кондиционеров",
   "main": "script.js",
   "scripts": {
-    "build": "webpack --config webpack.config.js",
-    "dev": "webpack serve"
+    "start": "webpack serve",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -24,12 +24,12 @@
     "mini-css-extract-plugin": "^2.9.2",
     "sass": "^1.86.3",
     "sass-loader": "^16.0.5",
+    "style-loader": "^4.0.0",
     "webpack": "^5.99.6",
     "webpack-cli": "^5.1.4",
-    "webpack-dev-server": "^4.15.0"
+    "webpack-dev-server": "^4.15.2"
   },
   "dependencies": {
-    "path": "^0.12.7",
-    "style-loader": "^4.0.0"
+    "path": "^0.12.7"
   }
 }
