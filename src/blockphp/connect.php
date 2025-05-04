@@ -14,9 +14,7 @@
                 placeholder="8(___)___-__-__"
                 name="phone"
               />
-              <a class="choice-condicioner__anchor-link" href="#test-popup">
-                <button class="button__test">Пройти тест</button>
-              </a>
+             <button class="button__test" id="open-test-popup">Пройти тест</button>
             </div>
           </div>
           <div class="container__img">

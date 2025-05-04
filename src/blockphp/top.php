@@ -9,7 +9,7 @@
     </p>
     <div class="top__ball"></div>
     <div class="form-and-nav">
-        <form class="top__form" method="POST" action="telegram.php">
+        <form class="top__form" method="POST" action="./telegram.php">
             <input
                 class="top__input"
                 required="required"
