@@ -1,4 +1,5 @@
 <?php
+require('blockphp/metateg.php');
 require('blockphp/header.php');
 require('blockphp/menu_burger.php');
 require('blockphp/top.php');

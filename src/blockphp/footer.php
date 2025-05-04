@@ -1,5 +1,5 @@
 <footer class="footer">
-      <nav class="navtab navtab_footer">
+      <nav class=" navtab_footer">
         <a class="navtab__item navtac_main navtab__item_footer" href="#main">
           Главная
         </a>
