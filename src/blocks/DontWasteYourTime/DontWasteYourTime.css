@@ -398,17 +398,12 @@
 
 @media screen and (max-width: 863px) {
   .air__conditioner {
-    right: -55%;
+    background: url(../../images/condey-two-big.png) bottom 230px right 20px no-repeat;
+    width: 550px;
+    right: 0%;
   }
 }
 
-@media screen and (max-width: 790px) {
-  .air__conditioner {
-    background: url(../../images/condey-two-big.png) bottom 200px right 240px no-repeat;
-    width: 725px;
-    height: 730px;
-  }
-}
 
 @media screen and (max-width: 682px) {
   .top__title {
@@ -438,7 +433,9 @@
   }
 
   .air__conditioner {
-    background: url(../../images/condey-two-big.png) bottom 200px right 100px no-repeat;
+    background: url(../../images/condey-two-big.png) bottom 200px left 35px no-repeat;
+    width: 520px;
+    right: -19%;
   }
 
   .form-and-nav {
@@ -471,47 +468,31 @@
   }
 }
 
-@media screen and (max-width:570px) {
-  .air__conditioner {
-    background: url(../../images/condey-two-big.png) bottom 200px right 130px no-repeat;
-  }
-}
 
-@media screen and (max-width:550px) {
-  .air__conditioner {
-    background: url(../../images/condey-two-big.png) bottom 200px right 140px no-repeat;
-  }
-
-}
 
 @media screen and (max-width:545px) {
   .air__conditioner {
-    background: url(../../images/condey-two-big.png) bottom 200px right 160px no-repeat;
-  }
-
-}
-
-@media screen and (max-width:525px) {
-  .air__conditioner {
-    background: url(../../images/condey-two-big.png) bottom 190px right 170px no-repeat;
+    background: url(../../images/condey-two-big.png) bottom 200px right -10px no-repeat;  
+    width: 455px;
+    right: 1%;
   }
 
 }
 
 @media screen and (max-width:510px) {
   .air__conditioner {
-    background: url(../../images/condey-two-big.png) bottom 235px right 180px no-repeat;
+    background: url(../../images/condey-two-big.png) bottom 200px right -22px no-repeat;  
   }
 
 }
+
 
 @media screen and (max-width:500px) {
   .air__conditioner {
-    background: url(../../images/condey-two-big.png) bottom 300px right 190px no-repeat;
+    display: none; 
   }
 
 }
-
 
 @media screen and (max-width:480px) {
   .navtell__item {
@@ -524,9 +505,6 @@
     width: 285px;
   }
 
-  .air__conditioner {
-    background: url(../../images/condey-two-big.png) bottom 320px right 160px no-repeat;
-  }
 
   .top__input {
     width: 255px;

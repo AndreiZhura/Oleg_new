@@ -279,7 +279,7 @@
 @media screen and (max-width: 430px) {
   .advantages__element {
     grid-template-columns: 50% 50%;
-    height: 350px;
+    height: 380px;
   }
 }
 
@@ -293,7 +293,7 @@
   }
 
   .advantages__element {
-    height: 365px;
+    height: 515px;
   }
 }
 
