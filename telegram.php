@@ -1,9 +1,4 @@
 <?php
-// Включаем вывод ошибок
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
-
 $name = $_POST['name'];
 $phone = $_POST['phone'];
 $answerOne = $_POST['answer_1'];
@@ -12,7 +7,7 @@ $answerThree = $_POST['answer_3'];
 $answerFour = $_POST['answer_4'];
 
 $token = "5618935755:AAFX4G8Ou3xCBoQqcd98ezPzs06iSdBD1Fo";
-$chat_id = "-954869352";
+$chat_id = "-1002542417214";
 $arr = array(
   'Имя пользователя: ' => $name,
   'Телефон: ' => $phone,

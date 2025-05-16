@@ -3,7 +3,7 @@ const menuBurger = document.querySelector('.menu-burger');
 const menuBurgerClose = document.querySelector('.menu-right__close');
 const menuBurgerItem = document.querySelector('.menu-burger__navigation');
 
-const buttonTest = document.getElementById('.button__test');
+const buttonTest = document.querySelector('.button__test');
 const nameInput = document.querySelector('.input__text');
 const tellInput = document.querySelector('.input__tell');
 const pageNameTest = document.querySelector('.popup-test__input_name');
