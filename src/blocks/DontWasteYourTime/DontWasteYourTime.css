@@ -47,14 +47,12 @@
   position: absolute;
   content: url(../../images/Ellipse_1.svg);
   margin-left: 12px;
-  margin-top: -5px;
 }
 
 .top__ball::before {
   position: absolute;
   content: url(../../images/Ellipse_1.svg);
   margin-left: -12px;
-  margin-top: -5px;
 }
 
 .top__form {
@@ -145,8 +143,8 @@
   top: 100px;
   right: 0px;
   z-index: 0;
-  background: url(../../images/pngwing.com_1.svg) bottom -26px right 40px no-repeat,
-    url(../../images/pngwing.com_2.svg) top -100px right 54px no-repeat;
+  background: url(../../images/condey-two-big.png) bottom 280px right 40px no-repeat,
+    url(../../images/condey-one-big.png) top -70px right 54px no-repeat;
 }
 
 .top__column_content_social {
@@ -190,11 +188,6 @@
 @media screen and (max-width: 1919px) {
   .top {
     margin-left: 12%;
-  }
-
-  .air__conditioner {
-    background: url(../../images/pngwing.com_1.svg) bottom -26px right -22px no-repeat,
-      url(../../images/pngwing.com_2.svg) top -100px right -45px no-repeat;
   }
 }
 
@@ -273,11 +266,6 @@
   .top__title {
     margin-top: 50px;
   }
-
-  .air__conditioner {
-    background: url(../../images/condey-small-11-two.svg) bottom 140px right -22px no-repeat,
-      url(../../images/condey-small-11-one.svg) top -100px right -45px no-repeat;
-  }
 }
 
 @media screen and (max-width: 1450px) {
@@ -304,10 +292,10 @@
   }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1180px) {
   .air__conditioner {
-    background: url(../../images/condey-small-11-two.svg) bottom 140px right -40px no-repeat,
-      url(../../images/condey-small-11-one.svg) top -100px right -45px no-repeat;
+    background: url(../../images/condey-two-big.png) bottom 280px right -15px no-repeat,
+      url(../../images/condey-one-big.png) top -70px right -15px no-repeat;
   }
 }
 
@@ -363,11 +351,6 @@
   .top__subtitle {
     width: 300px;
   }
-
-  .air__conditioner {
-    background: url(../../images/condey-small-11-two.svg) bottom 230px right -40px no-repeat,
-      url(../../images/condey-small-11-one.svg) top -175px right -45px no-repeat;
-  }
 }
 
 @media screen and (max-width: 951px) {
@@ -399,9 +382,7 @@
     right: -62%;
     position: absolute;
     z-index: -1;
-    background: url(../../images/condey-small-11-two.svg) bottom 30px right 10% no-repeat,
-      url(../../images/condey-small-11-one.svg) top 10px right 10% no-repeat;
-
+    background: url(../../images/condey-small-11-two.svg) bottom 30px right 10% no-repeat;
   }
 
   .form-and-nav {
@@ -421,29 +402,11 @@
   }
 }
 
-@media screen and (max-width: 855px) {
+@media screen and (max-width: 790px) {
   .air__conditioner {
-    right: -45%;
-  }
-}
-
-@media screen and (max-width: 805px) {
-  .air__conditioner {
-    right: -35%;
-  }
-}
-
-@media screen and (max-width: 751px) {
-  .air__conditioner {
-    right: -25%;
-  }
-}
-
-
-@media screen and (max-width: 690px) {
-  .air__conditioner {
-    right: -20%;
-    width: 120%;
+    background: url(../../images/condey-two-big.png) bottom 200px right 240px no-repeat;
+    width: 725px;
+    height: 730px;
   }
 }
 
@@ -455,24 +418,27 @@
 
 }
 
-@media screen and (max-width: 662px) {
-  .air__conditioner {
-    right: -10%;
+@media screen and (max-width:620px) {
+  .navtell__item {
+    font-size: 20px;
   }
 }
 
-
-
-@media screen and (max-width: 600px) {
-  .air__conditioner {
-    display: none;
+@media screen and (max-width:605px) {
+  .navtell__item {
+    font-size: 15px;
   }
 }
 
 @media screen and (max-width: 594px) {
   .top__subtitle {
     width: 90%;
-    margin-top: 145px;
+    margin-top: 120px;
+    font-size: 18px;
+  }
+
+  .air__conditioner {
+    background: url(../../images/condey-two-big.png) bottom 200px right 100px no-repeat;
   }
 
   .form-and-nav {
@@ -498,9 +464,68 @@
   }
 }
 
+
+@media screen and (max-width:582px) {
+  .top__title_color:last-child {
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width:570px) {
+  .air__conditioner {
+    background: url(../../images/condey-two-big.png) bottom 200px right 130px no-repeat;
+  }
+}
+
+@media screen and (max-width:550px) {
+  .air__conditioner {
+    background: url(../../images/condey-two-big.png) bottom 200px right 140px no-repeat;
+  }
+
+}
+
+@media screen and (max-width:545px) {
+  .air__conditioner {
+    background: url(../../images/condey-two-big.png) bottom 200px right 160px no-repeat;
+  }
+
+}
+
+@media screen and (max-width:525px) {
+  .air__conditioner {
+    background: url(../../images/condey-two-big.png) bottom 190px right 170px no-repeat;
+  }
+
+}
+
+@media screen and (max-width:510px) {
+  .air__conditioner {
+    background: url(../../images/condey-two-big.png) bottom 235px right 180px no-repeat;
+  }
+
+}
+
+@media screen and (max-width:500px) {
+  .air__conditioner {
+    background: url(../../images/condey-two-big.png) bottom 300px right 190px no-repeat;
+  }
+
+}
+
+
+@media screen and (max-width:480px) {
+  .navtell__item {
+    font-size: 14px;
+  }
+}
+
 @media screen and (max-width: 470px) {
   .top__form {
     width: 285px;
+  }
+
+  .air__conditioner {
+    background: url(../../images/condey-two-big.png) bottom 320px right 160px no-repeat;
   }
 
   .top__input {
@@ -600,4 +625,5 @@
   .top__form {
     width: 225px;
   }
+
 }

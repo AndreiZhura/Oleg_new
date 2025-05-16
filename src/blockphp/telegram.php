@@ -1,4 +1,9 @@
 <?php
+// Включаем вывод ошибок
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
 $name = $_POST['name'];
 $phone = $_POST['phone'];
 $answerOne = $_POST['answer_1'];
