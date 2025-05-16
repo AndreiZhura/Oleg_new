@@ -72,7 +72,7 @@
             <form
               class="top__form top__form_end"
               method="POST"
-              action="./telegram.php"
+              action="/src/blockphp/telegram.php"
             >
               <input
                 class="top__input input_end"

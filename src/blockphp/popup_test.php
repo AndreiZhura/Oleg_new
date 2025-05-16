@@ -3,7 +3,7 @@
 <section class="popup-test popup-test_none" id="test-popup">
         <div class="popup-test__main">
           <button class="popup-test_cross">X</button>
-          <form class="popup-test__form" action="./telegram.php" method="POST">
+          <form class="popup-test__form" action="/src/blockphp/telegram.php" method="POST">
             <h3 class="popup-test__main-title">Ответьте на вопросы</h3>
             <div class="popup-test__questions">
               <div class="popup-test__question-item">
